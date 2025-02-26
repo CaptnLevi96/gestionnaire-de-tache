@@ -81,7 +81,7 @@ npx http-server ./src -p 8080
 
 ### Tests unitaires (TDD)
 ```bash
-npm run test:tdd
+npm test
 ```
 
 ### Tests comportementaux (BDD)
