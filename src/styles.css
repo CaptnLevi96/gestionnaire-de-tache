@@ -1,0 +1,81 @@
+/* Style basique pour débutant */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: white;
+}
+
+h1 {
+    color: blue;
+    text-align: center;
+}
+
+h2 {
+    color: #333;
+    margin-top: 20px;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    padding: 15px;
+}
+
+form {
+    margin-bottom: 25px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    background-color: #f9f9f9;
+}
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #999;
+}
+
+button {
+    padding: 5px 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-right: 5px;
+}
+
+button.delete {
+    background-color: red;
+}
+
+button.edit {
+    background-color: blue;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #eee;
+}

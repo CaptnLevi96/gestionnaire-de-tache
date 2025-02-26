@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestion de Contacts</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Gestion de Contacts</h1>
+        
+        <div class="form-container">
+            <h2>Ajouter/ Modifier un contact</h2>
+            <form id="contactForm">
+                <input type="hidden" id="contactId">
+                <div class="form-group">
+                    <label for="nom">Nom:</label>
+                    <input type="text" id="nom" required>
+                </div>
+                <div class="form-group">
+                    <label for="prenom">Prénom:</label>
+                    <input type="text" id="prenom" required>
+                </div>
+                <div class="form-group">
+                    <label for="telephone">Téléphone:</label>
+                    <input type="tel" id="telephone" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" required>
+                </div>
+                <div class="form-buttons">
+                    <button type="submit" id="saveButton">Ajouter</button>
+                    <button type="button" id="cancelButton" style="display: none;">Annuler</button>
+                </div>
+            </form>
+        </div>
+
+        <div class="contacts-container">
+            <h2>Liste des Contacts</h2>
+            <table id="contactsTable">
+                <thead>
+                    <tr>
+                        <th>Nom</th>
+                        <th>Prénom</th>
+                        <th>Téléphone</th>
+                        <th>Email</th>
+                    </tr>
+                </thead>
+                <tbody id="contactsList">
+                   
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
